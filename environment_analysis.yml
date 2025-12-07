@@ -1,0 +1,21 @@
+name: wormfish_analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy<2.0
+  - scipy>=1.10
+  - scikit-image>=0.21
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - h5py>=3.9
+  - tifffile>=2024.0
+  - jupyter
+  - ipykernel
+  - pip:
+    - big-fish==0.6.2
+    - stardist==0.9.1
+    - csbdeep==0.8.0
+    - tensorflow==2.10.1

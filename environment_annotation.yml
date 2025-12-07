@@ -1,0 +1,15 @@
+name: wormfish_annotation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.24
+  - tifffile>=2024.0
+  - pyqt
+  - jupyter
+  - ipykernel
+  - pip:
+      - napari==0.6.2
+      - napari-label-interpolator==0.1.1
