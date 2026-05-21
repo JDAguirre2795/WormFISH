@@ -1,4 +1,4 @@
-name: wormfish_annotation
+name: seqwormfish_annotation
 channels:
   - conda-forge
   - defaults
