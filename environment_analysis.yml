@@ -1,4 +1,4 @@
-name: wormfish_analysis
+name: seqworm_analysis
 channels:
   - conda-forge
   - defaults
