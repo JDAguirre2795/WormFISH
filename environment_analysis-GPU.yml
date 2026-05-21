@@ -1,4 +1,4 @@
-name: wormfish_analysis-GPU
+name: seqworm_analysis-GPU
 channels:
   - conda-forge
   - nvidia
